@@ -6,12 +6,12 @@ This project tackles a QUBO (Quadratic Unconstrained Binary Optimization) proble
 
 ## Project structure:
 /src_cudaq/ <br>
- ` `__init__`.py <br>
- ` circuits.py <br>
- ` fourier.py <br>
- ` optimizer.py <br>
- ` qaoa_converter.py <br>
- ` utils.py <br>
+  `__init__`.py <br>
+  circuits.py <br>
+  fourier.py <br>
+  optimizer.py <br>
+  qaoa_converter.py <br>
+  utils.py <br>
 <br>
 /src_pennylane/ <br>
   `__init__`.py <br>
