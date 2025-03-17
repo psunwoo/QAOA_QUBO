@@ -5,26 +5,26 @@
 This project tackles QUBO problem solving with QAOA, experimenting with **Fourier-based parameter heuristics** and a **custom (a, b)-tunable mixer** to enhance optimization efficiency and adaptability for challenging, non-convex landscapes.
 
 ## Project structure:
-/src_cudaq/
-  `__init__`.py
-  circuits.py
-  fourier.py
-  optimizer.py
-  qaoa_converter.py
-  utils.py
-
-/src_pennylane/
-  `__init__`.py
-  circuits.py
-  fourier.py
-  optimizer.py
-  qaoa_converter.py
-  utils.py
-
-QUBO_QAOA_cudaq.ipynb
-QUBO_QAOA_pennylane.ipynb
-requirements.txt
-README.md
+/src_cudaq/ <br>
+  `__init__`.py <br>
+  circuits.py <br>
+  fourier.py <br>
+  optimizer.py <br>
+  qaoa_converter.py <br>
+  utils.py <br>
+<br>
+/src_pennylane/ <br>
+  `__init__`.py <br>
+  circuits.py <br>
+  fourier.py <br>
+  optimizer.py <br>
+  qaoa_converter.py <br>
+  utils.py <br>
+<br>
+QUBO_QAOA_cudaq.ipynb <br>
+QUBO_QAOA_pennylane.ipynb <br>
+requirements.txt <br>
+README.md <br>
 
 ## Requirements:
 pip install -r requirements.txt
