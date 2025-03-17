@@ -2,16 +2,16 @@
 
 ## Summary
 
-This project tackles QUBO problem solving with QAOA, experimenting with **Fourier-based parameter heuristics** and a **custom (a, b)-tunable mixer** to enhance optimization efficiency and adaptability for challenging, non-convex landscapes.
+This project tackles a QUBO (Quadratic Unconstrained Binary Optimization) problem by QAOA (Quantum Approximate Optimization Algorithm), experimenting with **FOURIER heuristics (Discrete Fourier Transform on the classical paramters)** and a **custom tunable mixer Hamiltonian** to enhance optimization efficiency and adaptability for challenging, non-convex landscapes.
 
 ## Project structure:
 /src_cudaq/ <br>
-  `__init__`.py <br>
-  circuits.py <br>
-  fourier.py <br>
-  optimizer.py <br>
-  qaoa_converter.py <br>
-  utils.py <br>
+ ` `__init__`.py <br>
+ ` circuits.py <br>
+ ` fourier.py <br>
+ ` optimizer.py <br>
+ ` qaoa_converter.py <br>
+ ` utils.py <br>
 <br>
 /src_pennylane/ <br>
   `__init__`.py <br>
